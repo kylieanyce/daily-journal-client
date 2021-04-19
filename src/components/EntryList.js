@@ -65,6 +65,7 @@ export const EntryList = () => {
 
       </div>
 
+
       <h1>Entries</h1>
 
       {/*
