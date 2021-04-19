@@ -9,9 +9,9 @@ export const EntryForm = (props) => {
 
     const [editMode, editModeChanged] = useState(false)
 
-    useEffect(() => {
-        getMoods()
-    }, [])
+    // useEffect(() => {
+    //     getMoods()
+    // }, [])
 
     useEffect(() => {
         if ('id' in entry) {

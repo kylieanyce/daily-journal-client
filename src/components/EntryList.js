@@ -12,7 +12,7 @@ export const EntryList = () => {
 
   useEffect(() => {
     getEntries()
-      .then(getMoods)
+      .then()
   }, []);
 
   useEffect(() => {
