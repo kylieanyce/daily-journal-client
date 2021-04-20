@@ -72,7 +72,6 @@ export const EntryList = () => {
             Pseudo Code
             .filter(happyEntries => happyEntries.mood.label === "Happy")
         */}
-
       <div className="entries">
         {filteredEntries.map(entry => {
           return <Entry key={entry.id} entry={entry} moods={moods} />;
